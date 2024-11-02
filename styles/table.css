@@ -18,9 +18,6 @@ table, th, td{
     border-collapse: collapse;
     margin: auto;
 }
-th{
-    text-align: left;
-}
 th, td{
     padding: 10px;
 }
@@ -28,6 +25,13 @@ caption{
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
 }
-tr:hover{
-    background-color: blanchedalmond;
+tr:nth-child(odd){
+    background-color: rgba(122, 242, 10, 0.499);
+}
+tr:nth-child(even){
+    background-color: rgba(246, 255, 0, 0.493);
+}
+th{
+    text-align: left;
+    background-color: aliceblue;
 }
