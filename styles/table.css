@@ -35,3 +35,12 @@ th{
     text-align: left;
     background-color: aliceblue;
 }
+.label-content{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+input{
+    margin: 10px;
+}
